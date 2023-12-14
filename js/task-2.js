@@ -22,7 +22,7 @@ function calcAverageCalories(days) {
   // затем расчитываем среднее количество, разделив общее количество на количество дней
   const averageCalories = totalCalories / days.length;
   // результат
-  return `Average daily calories: ${averageCalories.toFixed(2)}`;
+  return `Average daily calories: ${averageCalories}`;
 }
 
 console.log(
